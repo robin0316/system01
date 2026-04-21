@@ -30,12 +30,12 @@ function Sidebar() {
             </NavLink>
 
             <NavLink
-              to="/data/categories"
+              to="/data/suppliers"
               className={({ isActive }) =>
                 isActive ? "nav-link sub-link active-link" : "nav-link sub-link"
               }
             >
-              Categories
+              SuppliersPage
             </NavLink>
 
             <NavLink
